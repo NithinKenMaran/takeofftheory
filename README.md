@@ -31,3 +31,11 @@ The `-v ArduCopter` argument specifies the vehicle, `ArduCopter`, which is a qua
 The `-L KSFO` argument specifies the drone's spawn location. KSFO is an interesting airport to look at, so we'll use that. 
 
 The `--map --console` arguments open up a map and console to view the drone location and telemetry data.
+
+### Documentation
+I strongly recommend looking at Ardupilot's documentation on using the simulation: https://ardupilot.org/dev/docs/using-sitl-for-ardupilot-testing.html
+
+Look at simulating different vehicles, like planes and rovers, with the `-v` argument. 
+
+## Drone Control with MAVProxy commands
+
