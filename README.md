@@ -1,6 +1,6 @@
 # takeofftheory
 
-## Ardupilot Installation
+## Installation: Ardupilot
 
 Install git:
 ```
@@ -37,7 +37,7 @@ If you're interested in building your own drone in the future, I strongly recomm
 
 Look at simulating different vehicles, like planes and rovers, with the `-v` argument. 
 
-# Gazebo simulator installation
+# Installation: Gazebo Simulator
 
 ```
 sudo apt-get update
@@ -52,7 +52,7 @@ sudo apt-get install gz-garden
 sudo apt install libgz-sim7-dev rapidjson-dev
 ```
 
-### Ardupilot plugin for gazebo simulator
+### Installation: Ardupilot plugin for gazebo
 ```
 cd ~
 mkdir -p gz_ws/src && cd gz_ws/src
